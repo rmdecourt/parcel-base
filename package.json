@@ -1,0 +1,39 @@
+{
+  "name": "parcel-base",
+  "version": "1.0.0",
+  "description": "Boilerplate for creating project with Parcel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmdecourt/parcel-base.git"
+  },
+  "keywords": [
+    "Parcel"
+  ],
+  "author": "Rafael Machado Decourt <rafael.decourt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmdecourt/parcel-base/issues"
+  },
+  "homepage": "https://github.com/rmdecourt/parcel-base#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.3",
+    "@babel/core": "^7.6.3",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "parcel-bundler": "^1.12.4",
+    "pug": "^2.0.4",
+    "sass": "^1.23.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.6.3",
+    "core-js": "^3.2.1",
+    "whatwg-fetch": "^3.0.0"
+  }
+}
