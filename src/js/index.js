@@ -1,6 +1,8 @@
-const f = async () => {
+async function ggg() {
   const res = await fetch('https://api.mercadolibre.com/sites/MLB/search?q=iphone');
-  await res.json();
-};
+  return res.json();
+}
 
-console.log(f());
+ggg().then((data) => {
+  console.log(data);
+});
